@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.social-networks{
+    height: 3rem;
+    background-color: #48cfad;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.social-networks li{
+    margin: 0 4vw;
+}
+
+.navar{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 5rem;
+    background-color: transparent;
+}
+
+.navar__logo{
+    display: flex;
+    width: auto;
+    height: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navar__logo img{
+    width: 32px;
+    height: 24px;
+}
+
+.navar__logo h2{
+    font-size: 1.2rem;
+    margin-left: 16px;
+    color: white;
+}
+
+.navar__about-me{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* .navar__logo{
+    background-image: url("./../assets/Logo.png");
+    width: 8rem;
+    height: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.inicio{
+    background-image: url("./../assets/Cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh);
+    text-align: center;
+}
+
+.entrar{
+    position: relative;
+    font-size: 1.4rem;
+    top: calc(50vh - 10rem);
+    max-width: 30rem;
+    margin: auto;
+}
+
+.entrar h1{
+    color: white;
+    letter-spacing: 0.4rem;
+    margin: 0 0 2vh;
+}
+
+.entrar a{
+    width: 200px;
+    background-color: #48cfad;
+    color: white;
+    padding: .2rem;
+    border: white 1px solid;
+    border-radius: 4px;
+
+}
