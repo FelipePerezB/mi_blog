@@ -28,6 +28,7 @@
 .last-post{
     flex-wrap: wrap;
     justify-content: center;
+    margin: initial 0;
 }
 
 .blog__image img{
@@ -36,5 +37,9 @@
 
 .blog__content{
     margin: 2rem auto;
+}
+
+.last-post::-webkit-scrollbar{
+    display: none;
 }
 

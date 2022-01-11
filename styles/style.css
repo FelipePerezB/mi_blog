@@ -20,6 +20,10 @@ body, html{
     position: relative;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .page{
     position: relative;
     min-height: 100%;
@@ -201,7 +205,8 @@ nav{
 .last-post{
     padding: 2rem 0;
     display: flex;
-    overflow-y: scroll;    
+    overflow-y: scroll;   
+    gap: 1rem; 
 }
 
 .last-post__card{
@@ -210,7 +215,6 @@ nav{
     border-radius: 4px;
     min-width: 18.8rem;
     width: 18rem;
-    margin: 1rem 1rem;
     padding: 16px;
 }
 
@@ -343,3 +347,4 @@ footer{
 .contact__card p{
     grid-column: 2/3;
 }
+
