@@ -210,6 +210,8 @@ nav{
 }
 
 .last-post__card{
+    display: flex;
+    flex-direction: column;
     color: black;
     background-color: #e7eaee;
     border-radius: 4px;
@@ -233,6 +235,10 @@ nav{
 
 .last-post__card h3{
     margin: .5rem 0;
+}
+
+.last-post p{
+    margin: 0 0 1rem;
 }
 
 footer{
@@ -261,7 +267,7 @@ footer{
 .blog__image img{
     width: 100%;
     height: 40vh;
-    max-height: 28rem;
+    max-height: 30rem;
     object-fit: cover;
 }
 
