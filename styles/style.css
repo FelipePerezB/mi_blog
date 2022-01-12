@@ -27,7 +27,7 @@ body{
 .page{
     position: relative;
     min-height: 100%;
-    font-family: var(--roboto);
+    font-family: var(--roboto-mono);
     background-color: #FAF8F7;
 }
 
